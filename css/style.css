@@ -1,0 +1,23 @@
+@import url(header.css);
+@import url(banner.css);
+@import url(resultados.css);
+@import url(talentos.css);
+@import url(colaboradores.css);
+@import url(rodape.css);
+
+:root{
+    --fonte-principal: 'Inter';
+    --cor-de-fundo: #FFFFFF;
+    --cor-fonte-principal: #101828;
+    --cor-fonte-cinza: #667085;
+    --cor-fonte-vermelho: #8E2424;
+    --cor-bordas: #D0D5DD;
+}
+
+body{
+    color: var(--cor-fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--fonte-principal);
+    background: var(--cor-de-fundo);
+}

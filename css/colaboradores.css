@@ -1,0 +1,44 @@
+.banner__colaborador{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5rem;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+    width: 1216px;
+    height: 404px;;
+}
+
+.descricao__colaborador{
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+    align-items: center;
+    color: var(--cor-fonte-vermelho);
+    justify-content: center;
+    margin: 4rem 0 2rem 0;
+}
+
+.titulo__principal-colaborador{
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0 auto;
+}
+
+.imagem__avatar{
+    width: 56px;
+    height: 56px;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.desenvolvedora__julia{
+    margin: 1rem 0;
+}
+
+.avatar__funcao{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cor-fonte-cinza);
+}

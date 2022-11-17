@@ -1,0 +1,74 @@
+.talentos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+
+.talentos__vagas{
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+    align-items: center;
+    color: var(--cor-fonte-vermelho);
+    background: rgba(142, 36, 36, 0.10);
+    border-radius: 16px;
+    padding: 4px 12px;
+    width: 125px;
+    height: 28px;
+    margin: 0 auto;
+}
+
+.titulo__principal-talentos{
+    font-size: 36px;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.descricao__talentos{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cor-fonte-cinza);
+    margin-bottom: 4rem;
+}
+
+.img__talentos{
+    margin: 0 5rem;
+}
+
+.talentos__opcoes{
+    width: 55%;
+    margin: 0 auto;
+}
+
+.talentos__area{
+    margin-top: 4rem;
+    font-size: 20px;
+}
+
+.talentos__lista{
+    padding: 2rem auto;
+}
+
+.talento__link{
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--cor-fonte-principal);
+    padding-bottom: 1.5rem;
+    width: 100%;
+}
+
+.talento__carga-horaria, .talento__salario{
+    color: var(--cor-fonte-cinza);
+}
+
+.talentos__item{
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid var(--cor-bordas);
+    border-radius: 16px;
+    padding: 1.5em;
+    margin: 1.5rem auto;
+    flex-wrap: wrap;
+}

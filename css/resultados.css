@@ -1,0 +1,25 @@
+.resultados{
+    display: flex;
+    margin: 0 3rem;
+}
+
+.container__resultados{
+    width: 25%;
+    margin: auto 2em;
+}
+
+.quantidade{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--cor-fonte-vermelho);
+    margin: .5rem 0;
+}
+
+.titulo__resultados{
+    font-size: 18px;
+}
+
+.descricao__resultados{
+   font-weight: 400;
+   color: var(--cor-fonte-cinza);
+}
